@@ -1,0 +1,180 @@
+body,div,di,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding:0;
+}
+html body{
+    height: 100%;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    background: #040a19;
+    display: flex;
+    flex-direction: row;
+    /*主轴交叉方式*/
+    justify-content: center;/*水平居中*/
+    /*交叉轴方向对齐方式*/
+    align-items: center;/*垂直居中*/
+}
+
+.main{
+    width: 720px;
+    height: 510px;
+    background: white;
+    /*position: relative;*/
+
+}
+.main .header{
+    width: 100%;
+    height: 65px;
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    line-height: 65px;
+
+    background: #3858c9;
+}
+.main .img-container{
+    width: 400px;
+    height: 100px;
+    margin: auto;/*div水平居中*/
+    /*background: gray;*/
+    margin-top: 30px;
+
+
+    display: flex;
+   flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+
+}.main .img-container .div-img{
+     width: 75px;
+     height: 100px;
+    color:#3b6bc9;
+    /*background: yellow;*/
+ }
+ .main .line-seperate{
+     width: 90%;
+     height: 1px;
+     background: rgba(143, 143, 143, 0.44);
+     margin: auto;/*上下30px,左右居中*/
+     margin-top: 30px;
+ }
+ .main .or-seperate{
+     width: 40px;
+     height: 30px;
+     background: white;
+     margin: auto;
+     margin-top: -15px;
+     text-align: center;
+     line-height: 30px;
+ }
+ .main .div-form{
+     width: 400px;
+     /*height: 100px;*/
+     margin: auto;
+     text-align: center;
+     /*background: hotpink;*/
+     position: relative;
+
+ }
+ .main .div-form .text{
+     width: 400px;
+     height: 30px;
+     box-sizing: border-box;
+     outline: none;
+     border: solid 1px gray;
+     margin-top: 20px;
+     border-radius: 3px;
+ }
+.main .div-form .text:focus{
+    border: solid 1px #0000ff;
+}
+.main .div-form .button{
+    background:#4e82f4;
+    width: 80px;
+    height: 35px;
+    margin-top: 18px;
+    border-radius: 4px;
+    border: none;
+    color: white;
+
+
+}
+.main .div-form a{
+    text-decoration: none;
+    font-size: 14px;
+    color:#4e82f4
+
+
+}
+
+.div-form .email-tishi{
+    position: absolute;
+    top:50px;
+    width: 110px;
+    height: 23px;
+    font-size: 12px;
+    color: red;
+
+    margin-top:-2px;
+    margin-bottom: 0;
+    line-height: 23px;
+    /*background-color:blue;*/
+    /*display: none;*/
+
+}
+.div-form .email-tishi .nempty{
+    display: none;
+}
+.div-form .email-tishi .nillegal{
+    float: left;
+    display:none;
+}
+.div-form .password-tishi{
+    position: absolute;
+    top:95px;
+    width: 110px;
+    height: 23px;
+    margin-top: 4px;
+    font-size: 12px;
+    color: red;
+    line-height: 23px;
+    /*background-color:blue;*/
+    /*display: none;*/
+
+}
+.div-form .password-tishi .pempty{
+    display: none;
+}
+.div-form .password-tishi .pillegal{
+    float: left;
+    display:none;
+}
+.div-alert{
+    position: relative;
+    width: 400px;
+    height:60px;
+    /*background: #ff9630;*/
+}
+.div-alert .tishibox{
+    position: absolute;
+    color: red;
+    width: 160px;
+    height: 23px;
+    margin-left: 160px;
+    margin-top: 5px;
+    text-align: center;
+    line-height: 23px;
+    /*display: none;*/
+    /*background: blue;*/
+}
+ .div-alert .tishibox .wrong-input{
+    display: none;
+}
+.div-alert .tishibox .notFound{
+    margin-left: 5px;
+    float: left;
+    display:none;
+}
