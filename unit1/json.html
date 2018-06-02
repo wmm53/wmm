@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/jquery-3.2.1.js"></script>
+
+</head>
+<body>
+<script>
+    <!--轻量化数据传输格式-->
+    var users=[
+        {"name":"tom","age":12},
+        {"name":"Tommy","age":12},
+        {"name":"tom","age":12},
+        {"name":"tom","age":12}
+    ];
+    for(var i=0;i<users.length;i++){
+        alert(users[i].name);
+
+    }
+    console.log(users);
+    console.log(JSON.stringify(users));
+    JSON.parse(str);
+    JSON.stringify(obj);
+
+    // var user={"name":"tom","age":12};
+    // alert(user.name);
+    // alert(user.age);
+    // $.each(user,function (k,v) {
+    //     console.log("k+","+v");
+    //
+    // })
+</script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+
+  [
+    {"userId":"admin@163.com","nickName":"admin","userPassword":"666666","userIcon":"","userPhone":"13812790420"},
+    {"userId":"lzhan@163.com","nickName":"l","userPassword":"123456","userIcon":"","userPhone":"13812790421"},
+    {"userId":"jack@163.com","nickName":"jackey","userPassword":"567890","userIcon":"","userPhone":"13812790423"},
+    {"userId":"rose@163.com","nickName":"ros","userPassword":"123123","userIcon":"","userPhone":"13812790424"},
+    {"userId":"tony@163.com","nickName":"ton","userPassword":"345345","userIcon":"","userPhone":"13812790543"},
+    {"userId":"james@163.com","nickName":"jam","userPassword":"888888","userIcon":"","userPhone":"13812790678"}
+  ]

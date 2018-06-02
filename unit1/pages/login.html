@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../css/login.css">
+
+
+</head>
+<body>
+<div class="container">
+    <div class="main">
+        <div class="header">
+            log in with
+        </div>
+        <div class="img-container">
+            <div class="div-img"><img src="../images/login-github.png" alt=""> Github</div>
+            <div class="div-img"><img src="../images/login-bitbucket.png" alt="">BitBucket</div>
+            <div class="div-img"><img src="../images/login-google.png" alt="">Google</div>
+            <div class="div-img"><img src="../images/login-facebook.png" alt="">Facebook</div>
+        </div>
+        <div class="line-seperate"></div>
+        <div class="or-seperate">
+            OR
+        </div>
+        <div class="div-form">
+            <!--提交表单：表单（事件源） 提交（submit按钮触发事件） -->
+            <form action="../index.html" id="login_form"  onsubmit="return checkLogin()" >
+                <input type="email" class="text" id="txtEmail" value="admin@163.com" placeholder="email..." >
+                <div class="email-tishi"><span class="nempty">用户名不能为空!</span><span class="nillegal">请输入合法的格式！</span></div>
+                <input type="password" class="text" id="txtPassword"  value="234554" placeholder="password..." >
+                <input type="submit" class= "button" id="btnLogin" value="log in">
+                <div class="password-tishi"><span class="pempty">密码不能为空!</span><span class="pillegal">请输入6位数字！</span></div>
+                <input type="submit" class="button" id="btnLogin2" value="登陆" >
+                <a href="#" >forgot your password?</a>
+            </form>
+        </div>
+        <div class="div-alert">
+            <div class="tishibox">
+            <span class="wrong-input">用户名或密码错误！</span><span class="notFound">用户不存在！</span>
+            </div>
+
+        </div>
+</div>
+</div>
+<script src="../js/jquery-3.2.1.js"></script>
+<script src="../js/login.js"></script>
+</body>
+</html>
